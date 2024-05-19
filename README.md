@@ -1,7 +1,7 @@
 
-### Api_SuperHero
-
+### Proyecto NovaVersoCL
 ```markdown
+
 
 Este proyecto se encuentra alojado en [NovaVersoCL](https://novaversocl.github.io).
 
@@ -41,21 +41,23 @@ Este proyecto se encuentra alojado en [NovaVersoCL](https://novaversocl.github.i
 
 ## Información del Código JavaScript
 
+### API SuperHero
+
 Para la funcionalidad de búsqueda y visualización de información de superhéroes, se ha empleado la API de SuperHero con el siguiente código:
 
-### Configuración de la API
+#### Configuración de la API
 ```javascript
 const BASE_URL = "https://superheroapi.com/api.php/";
 const variable_apiToken = "xx";
 ```
 
-### Elementos del DOM
+#### Elementos del DOM
 ```javascript
 const variable_inputsuperhero = $("#input-superhero");
 const variable_searchsuperhero = $("#search-superhero");
 ```
 
-### Función para Obtener un Superhéroe
+#### Función para Obtener un Superhéroe
 ```javascript
 const getOneSuperhero = (variable_apiToken, variable_inputsuperhero) => {
   return $.ajax({
@@ -100,7 +102,7 @@ const getOneSuperhero = (variable_apiToken, variable_inputsuperhero) => {
 };
 ```
 
-### Evento de Búsqueda
+#### Evento de Búsqueda
 ```javascript
 variable_searchsuperhero.on("click", function (event) {
   event.preventDefault();
@@ -110,7 +112,7 @@ variable_searchsuperhero.on("click", function (event) {
 });
 ```
 
-### Validación del Input
+#### Validación del Input
 ```javascript
 function validarNumeros(input) {
   var regex = /^\d+$/;
@@ -133,13 +135,9 @@ Este código muestra cómo se puede integrar una API externa para buscar informa
 
 ---
 
-
-
----
-
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Para más información, consulta el archivo [LICENSE](LICENSE).
+Este proyecto está bajo la Licencia MIT. Para más información.
 ```
 
 
