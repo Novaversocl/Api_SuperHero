@@ -44,7 +44,7 @@ Para la funcionalidad de búsqueda y visualización de información de superhér
    - **URL base** y **Token de API**:
      ```javascript
      const BASE_URL = "https://superheroapi.com/api.php/";
-     const variable_apiToken = "e3fe2be95bda5c16995ec9a94d38bc3a";
+     const variable_apiToken = "xxx";
      ```
 
 2. **Elementos del DOM**:
