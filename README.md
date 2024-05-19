@@ -1,50 +1,46 @@
-# Api_SuperHero
-Buscador de super héroes usando Api
-
-
-Para el proyecto alojado en GitHub en la URL [https://novaversocl.github.io](https://novaversocl.github.io), se han utilizado diversas tecnologías y herramientas. A continuación, se detalla cada una de ellas según su categoría:
+Para el proyecto alojado en GitHub en la URL [https://novaversocl.github.io](https://novaversocl.github.io), se han empleado diversas tecnologías y herramientas. A continuación, se detalla cada una de ellas según su categoría:
 
 1. **Seguridad**:
    - **HSTS** (HTTP Strict Transport Security): Implementado para asegurar que las conexiones al sitio sean siempre a través de HTTPS.
 
 2. **Tipografía**:
-   - **Font Awesome**: Utilizado para iconos vectoriales y logotipos en el sitio.
-   - **Google Font API**: Utilizado para cargar fuentes personalizadas desde Google Fonts.
+   - **Font Awesome**: Para iconos vectoriales y logotipos en el sitio.
+   - **Google Font API**: Para cargar fuentes personalizadas desde Google Fonts.
 
 3. **Herramienta de Cache**:
-   - **Varnish**: Utilizado para mejorar el rendimiento del sitio mediante almacenamiento en caché HTTP.
+   - **Varnish**: Mejora el rendimiento del sitio mediante almacenamiento en caché HTTP.
 
 4. **Gráficos JavaScript**:
-   - **CanvasJS**: Utilizado para crear gráficos interactivos y visualizaciones de datos.
+   - **CanvasJS**: Para crear gráficos interactivos y visualizaciones de datos.
 
 5. **CDN (Content Delivery Network)**:
-   - **Fastly**: Utilizado para distribuir el contenido del sitio de manera rápida y segura.
-   - **Google Hosted Libraries**: Utilizado para alojar y servir bibliotecas JavaScript de manera eficiente.
-   - **jsDelivr**: Utilizado como una red de entrega de contenido para bibliotecas JavaScript y otros activos estáticos.
+   - **Fastly**: Distribuye el contenido del sitio de manera rápida y segura.
+   - **Google Hosted Libraries**: Aloja y sirve bibliotecas JavaScript de manera eficiente.
+   - **jsDelivr**: Red de entrega de contenido para bibliotecas JavaScript y otros activos estáticos.
 
 6. **Librerías JavaScript**:
-   - **jQuery**: Utilizado para facilitar la manipulación del DOM, el manejo de eventos y las interacciones AJAX.
+   - **jQuery**: Facilita la manipulación del DOM, el manejo de eventos y las interacciones AJAX.
 
 7. **Hosting**:
-   - **GitHub Pages**: Utilizado para alojar y servir el sitio web de manera gratuita.
+   - **GitHub Pages**: Para alojar y servir el sitio web de manera gratuita.
 
 8. **Frameworks Web y UI**:
-   - **Bootstrap**: Utilizado para el desarrollo de interfaces de usuario responsivas y móviles.
+   - **Bootstrap**: Para el desarrollo de interfaces de usuario responsivas y móviles.
 
 9. **Protocolos**:
-   - **HTTP/2**: Utilizado para mejorar el rendimiento y la seguridad de las conexiones HTTP.
+   - **HTTP/2**: Mejora el rendimiento y la seguridad de las conexiones HTTP.
 
 ---
 
 ### Información del Código JavaScript
 
-Para la funcionalidad de búsqueda y visualización de información de superhéroes, se ha utilizado la API de SuperHero con el siguiente código:
+Para la funcionalidad de búsqueda y visualización de información de superhéroes, se ha empleado la API de SuperHero con el siguiente código:
 
 1. **Configuración de la API**:
    - **URL base** y **Token de API**:
      ```javascript
      const BASE_URL = "https://superheroapi.com/api.php/";
-     const variable_apiToken = "xxx";
+     const variable_apiToken = "xx";
      ```
 
 2. **Elementos del DOM**:
