@@ -3,7 +3,7 @@
 ```markdown
 
 
-Este proyecto se encuentra alojado en [SuperHero] (https://novaversocl.github.io/Api_SuperHero/).
+Este proyecto se encuentra alojado en [SuperHero](https://novaversocl.github.io/Api_SuperHero/).
 
 ## Tecnologías y Herramientas Utilizadas
 
