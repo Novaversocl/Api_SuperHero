@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.fondo {
+  background-image: linear-gradient(135deg, #011b5c, #d40646);
+}
+
+.footerfondo {
+  background-color: #010510;
+}
+
+.tamañologo {
+  width: 100px; /* Ajusta el ancho según tus necesidades */
+  height: 80px; /* Ajusta la altura según tus necesidades */
+}
+
+.marvel-text_logo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 36px;
+  /* background-color: red; */
+}
+
+.marvel-indice {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+}
+
+.fondotarjetatitulo {
+  background-image: linear-gradient(
+    to right,
+    #ff0000,
+    #ff6600,
+    #f4e30d,
+    #3ec1f3,
+    #0e7bb8
+  );
+}
+
+.colorpoder {
+  color: linear-gradient(135deg, #1a1a1a, #000000);
+}
+
+.fondotarjeta {
+  background: linear-gradient(135deg, #1a1a1a, #000000);
+}
+
+.marvel-text01 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  background-image: linear-gradient(
+    to right,
+    #ff0000,
+    #ff6600,
+    #f4e30d,
+    #3ec1f3,
+    #0e7bb8
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 100px rgba(255, 255, 255, 0.8);
+}
+
+.marvel-text {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 48px;
+  background-image: linear-gradient(
+    to right,
+    #ff0000,
+    #ff6600,
+    #f4e30d,
+    #3ec1f3,
+    #0e7bb8
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.fondo-red {
+  background: linear-gradient(to right, #4d0505, #ff6600);
+}
+
+.efectoimagen:hover {
+  box-shadow: 0px 0px 15px 15px #4a6097;
+  -webkit-box-shadow: 0px 0px 15px 10px #1e77ec;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
