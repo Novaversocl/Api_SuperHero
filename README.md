@@ -29,7 +29,7 @@ Este proyecto se encuentra alojado en [NovaVersoCL](https://novaversocl.github.i
 - **jQuery**: Facilita la manipulación del DOM, el manejo de eventos y las interacciones AJAX.
 
 ### Hosting
-- **GitHub Pages**: Para alojar y servir el sitio web de manera gratuita.
+- **GitHub Pages**: Para alojar y servir el sitio web.
 
 ### Frameworks Web y UI
 - **Bootstrap**: Para el desarrollo de interfaces de usuario responsivas y móviles.
