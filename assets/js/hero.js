@@ -102,6 +102,8 @@ $("#search-superhero").on("click", function () {
 
     // Agregar un evento de clic al botón
     openTestButton.addEventListener('click', function() {
+
+      console.log("all.html")
       // Redireccionar a test.html
       window.location.href = 'all.html';
     });
