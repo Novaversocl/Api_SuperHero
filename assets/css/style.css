@@ -50,7 +50,7 @@
 
 .marvel-text01 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 40px;
+  font-size: 24px;
   background-image: linear-gradient(
     to right,
     #ff0000,
@@ -63,7 +63,9 @@
   background-clip: text;
   color: transparent;
   text-shadow: 0 0 100px rgba(255, 255, 255, 0.8);
+  /* -webkit-text-stroke: 0.1px rgb(0, 0, 0); */
 }
+
 
 .marvel-text {
   font-family: "Bebas Neue", sans-serif;
@@ -92,3 +94,11 @@
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
 }
+
+.card-img-imagen{
+
+height: 22rem;
+
+
+}
+

@@ -95,3 +95,13 @@ $("#search-superhero").on("click", function () {
      
     }
 });
+
+
+    // Obtener referencia al botón
+    const openTestButton = document.getElementById('search-superhero-all');
+
+    // Agregar un evento de clic al botón
+    openTestButton.addEventListener('click', function() {
+      // Redireccionar a test.html
+      window.location.href = 'all.html';
+    });
