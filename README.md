@@ -131,10 +131,11 @@ $("#search-superhero").on("click", function () {
 });
 ```
 
-#### Imagen
+#### Imágenes
 
 ![imagen](https://github.com/Novaversocl/Api_SuperHero/assets/95386670/e04aa2ce-1a50-4c46-82d3-03aea09c2f91)
 
+![imagen](https://github.com/Novaversocl/Api_SuperHero/assets/95386670/d94f9340-7f7b-4c89-ac47-767700c95c5a)
 
 Este código muestra cómo se puede integrar una API externa para buscar información de superhéroes, validar la entrada del usuario y presentar los datos obtenidos de manera dinámica en el sitio web.
 
